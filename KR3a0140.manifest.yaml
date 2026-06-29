@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR3a0140/v1
+canonical_location: https://kanripo.org/bkk/KR3a0140/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 劉氏政論一卷
+  identifiers:
+    krp: KR3a0140
+  tags:
+    kr-categories: KR3a
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR3a0140.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR3a0140_001.yaml, hash: 'sha256:813edc27b14ba669604cc08cd6df3a375c2b2e4b4013bc0accf2670a56f2c345'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3a0140_001.markers.yaml, hash: 'sha256:08bc293766fd519b53502994b4071755368542ec4be0a85b60482ceea506bec6'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3a0140_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 444
+  label: 劉氏政論
+  type: section
+  level: 1
+hash: sha256:37fbfe469c64e0b667aab65f793e8ba44256927318e7f185f3b48e47866ab4b0
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
